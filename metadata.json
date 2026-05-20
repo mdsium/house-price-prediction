@@ -1,0 +1,8 @@
+{
+  "name": "HouseValuator AI",
+  "description": "Smart house price prediction platform with visual market analysis and area-based insights.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
