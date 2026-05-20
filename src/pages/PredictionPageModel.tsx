@@ -50,6 +50,9 @@ export default function PredictionPage() {
     setLoading(true);
     setError('');
 
+
+
+    
     try {
       const response = await fetch('https://bd-house-price-prediction.onrender.com/api/predict/', {
         method: 'POST',
