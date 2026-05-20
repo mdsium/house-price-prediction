@@ -1,7 +1,9 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { PredictionInput } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const GEMINI_API_KEY = "AIzaSyCsBLZq8QY4uYHngyM7-fJsFuwRMDEr48U";
+
+const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
 export async function predictHousePrice(input: PredictionInput): Promise<{ predictedPrice: number; reasoning: string }> {
   try {
