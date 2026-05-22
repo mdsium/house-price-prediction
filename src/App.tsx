@@ -20,7 +20,7 @@ function Navbar() {
 
   const navItems = [
     { name: 'Home', path: '/', icon: HomeIcon },
-    { name: 'PredictionAi', path: '/prediction', icon: LineChart },
+    // { name: 'PredictionAi', path: '/prediction', icon: LineChart },
     { name: 'PredictionModel', path: '/predictionmodel', icon: LineChart },
     { name: 'Market Map', path: '/map', icon: MapIcon },
     { name: 'About Model', path: '/about', icon: Info },
