@@ -3,8 +3,6 @@ import { Mail, Phone, MapPin, Send, MessageCircle } from 'lucide-react';
 import { useState } from 'react';
 import { APIProvider, Map, AdvancedMarker, Pin } from '@vis.gl/react-google-maps';
 
-const API_KEY = process.env.GOOGLE_MAPS_PLATFORM_KEY || '';
-const hasValidKey = Boolean(API_KEY) && API_KEY !== 'YOUR_API_KEY';
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);

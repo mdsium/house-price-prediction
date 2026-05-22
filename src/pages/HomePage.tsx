@@ -4,6 +4,8 @@ import { ArrowRight, Activity, BarChart3, BrainCircuit, Building2, CheckCircle2,
 import { useState } from 'react';
 import { cn } from '../lib/utils';
 
+
+
 export default function HomePage() {
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
 
@@ -18,8 +20,8 @@ export default function HomePage() {
       <section className="relative w-full h-[95vh] min-h-[700px] flex items-center justify-center overflow-hidden">
         {/* Background Image with Deep Overlay */}
         <div className="absolute inset-0 z-0">
-          <img 
-            src="../public/asset/bg-1.jpg" 
+         <img 
+            src="../public/assets/bg.jpg"
             alt="Modern Architecture"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
