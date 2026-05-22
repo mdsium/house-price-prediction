@@ -21,7 +21,7 @@ export default function HomePage() {
         {/* Background Image with Deep Overlay */}
         <div className="absolute inset-0 z-0">
          <img 
-            src="../public/assets/bg.jpg"
+            src="./assets/bg.jpg"
             alt="Modern Architecture"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
